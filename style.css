@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    box-sizing: border-box;
+    max-width: 1120px;
+    margin: 88px auto 65px;
+    background-color: aqua;
+}
+
+.titlepage {
+    margin-bottom: 44px;
+}
+
+.headline {
+    margin-bottom: 8px;
+}
+
+#description p {
+    margin-top: 24px;
+    text-align: center;
+}
+
+.divider {
+    width: 100%;
+    height: 1px;
+    margin: 40px 0 64px;
+    background-color: #d9d9d9;
+}
+
+h2 {
+    margin-bottom: 8px;
+}
+
+#titlelist h2 + p {
+    margin-bottom: 64px;
+}
+
+#list ol ul {
+    margin-top: 20px;
+}
+
+img {
+    width: 100%;
+    border-radius: 28px;
+}
+
+footer {
+    color: gray;
+    text-align: center;
+    padding-bottom: 48px;
+}
+
+footer img {
+    width: initial;
+    vertical-align: middle;
+}
